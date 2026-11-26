@@ -1,0 +1,18 @@
+{
+  "name": "mre-prisma-contract-drops-false",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "emit": "prisma contract emit",
+    "check": "node --experimental-strip-types src/check.mjs"
+  },
+  "dependencies": {
+    "@prisma/orm-extension-arktype-json": "8.0.0-rc.24",
+    "@prisma/orm-postgres": "8.0.0-rc.24",
+    "arktype": "2.2.9"
+  },
+  "devDependencies": {
+    "prisma": "8.0.0-rc.34",
+    "typescript": "5.9.3"
+  }
+}
